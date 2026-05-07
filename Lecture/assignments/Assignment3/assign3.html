@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #9b9b9b; font-family: monospace;font-size: 15px; margin: 20px;">
+    <div style="background: white; width: 70%; margin: auto; border: 1.5px solid #dcdcdc; box-shadow:10px 10px 10px #333333">
+        <div style="text-align: right; border-bottom: 1px solid; padding: 10px;background: #c0c0c0;">
+            <span style="font-size: 16px;">[_]</span>
+            <span style="font-size:20px;">[●]</span>
+            <span style="font-size: 20px;">[X]</span>
+            <h2 align="center" id="top">HTML Explorer</h2>
+        </div>
+
+        <div style="background-color:#eeeeee; padding:10px; border-bottom:2px solid black;">
+             &#128269; <input type="text" placeholder="Search" size="20"> 
+             <div style="text-align: right;">
+                <a href="#HTML" style="border:1px solid black; padding:8px; text-decoration:none; margin:5px; color:black;">HTML</a>
+                <a href="#tags" style="border:1px solid black; padding:8px; text-decoration:none; margin:5px; color:black;">HTML Tags</a>
+                <a href="#gallery" style="border:1px solid black; padding:8px; text-decoration:none; margin:5px; color:black;">HTML Gallery</a>
+                <a href="#LLs" style="border:1px solid black; padding:8px; text-decoration:none; margin:5px; color:black;">HTML Lists and Links</a>
+                <a href="#feedback" style="border:1px solid black; padding:8px; text-decoration:none; margin:5px; color:black;">Feedback</a>
+             </div>
+        </div>
+
+        <div style="padding:30px; text-align: center;">
+            <h1>INSIDE THE BROWSER</h1>
+            <h3>Complete HTML Tag Explorer</h3>
+            <p>This webpage demonstrates how browsers interpret HTML tags, metadata, media, hyperlinks, forms, tables, lists, and semantic structures.</p>
+        </div>
+
+        <hr>
+
+        <div id="HTML" style="border:1px solid gray; margin:20px; padding:20px; display: flex;">
+            <h2><em>What's HTML</em></h2>
+            <div style="border:3px solid gray; margin:20px; padding:20px;">
+                <h3><mark>What is HTML?</mark></h3>
+                <blockquote>HTML, or HyperText Markup Language, is the standard language used to create the structure of web pages. It uses tags and elements to organize text, images, links, tables, forms, and media so that web browsers can display them properly. HTML serves as the basic foundation of almost every website on the internet.</blockquote>
+            </div>
+            <div style="border:3px solid gray; margin:20px; padding:20px;">
+                <h3><mark>Breif History</mark></h3>
+                <blockquote>HTML was first developed by Tim Berners-Lee in 1991 as part of the creation of the World Wide Web, allowing documents to be linked and shared through browsers. Over time, HTML evolved through several versions, including XHTML, until HTML5 became the modern standard in 2014 with improved multimedia and semantic features</blockquote>
+            </div>
+        </div>
+        <div id="tags" style="border:1px solid gray; margin:20px; padding:20px;">
+                <table border="1" width="100%" cellpadding="10">
+                    <caption>
+                        <h2><em>HTML Tags</em></h2>
+                    </caption>
+                    <colgroup><col style="background-color:aqua"><col style="background-color: olivedrab;"></colgroup>
+                    <tr><th>HTML Source Code</th><th>Browser Display</th></tr>
+                    <tr>
+                        <td><pre>
+&lt;h1&gt;Welcome&lt;/h1&gt;
+&lt;p&gt;Hello Browser&lt;/p&gt;
+&lt;a href="#"&gt;Open Link&lt;/a&gt;
+&lt;b&gt;Boldy&lt;/b&gt;
+&lt;i&gt;Italic&lt;/i&gt;
+&lt;sub&gt;Subscript&lt;/sub&gt;and&lt;sup&gt;Superscript&lt;/sup&gt;
+&lt;big&gt;Big text&lt;/big&gt;
+&lt;u&gt;Underline&lt;/u&gt;
+&lt;strike&gt;Strike-Through&lt;/strike&gt;
+
+                        </pre></td>
+                    <td><h1>Welcome</h1><p>Hello Browser</p><a href="#">Open Link</a><br><br><b>Boldy</b><br><br><i>Italic</i><p><sub>Subscript</sub>and<sup>Superscript</sup></p><big>Big text</big><br><br><u>Underline</u><br><br><strike>Strike-Through</strike> </td>
+                    </tr>
+                </table>
+        </div>
+
+        <div style="border:1px solid gray; margin:20px; padding:20px;">
+            <h1>HTML Gallery</h1>
+            <p>
+HTML has developed greatly since its invention by Tim Berners-Lee in 1991. What began as a simple language for sharing linked scientific documents gradually expanded through multiple versions, adding tables, forms, images, stricter XHTML rules, and finally modern multimedia and semantic features in HTML5. This gallery highlights the major milestones that shaped HTML into the foundation of today’s web. 
+</p>
+            <div style="display: flex;">
+                <div style="margin: 25px;"><img src="tim.jpeg" width="250px"><figcaption><mark style="background-color: orange;">Sir Tim Berners-Lee, coined the term World Wide Web</mark></figcaption></div>
+
+                <div style="margin: 25px;"><img src="hero-html.png" width="250px"><figcaption>T<mark style="background-color: orange;">The HTML we all know and love</mark></figcaption></div>
+                <div style="margin: 25px;"><img src="22-mosaic-logo.webp" width="250px"><figcaption><mark style="background-color: orange;">The first ever web browser</mark></figcaption></div>
+            </div>
+            <figure style="text-align: center;">
+                <video controls style="width: 800px;">
+                    <source src="HTML in 100 Seconds - Fireship (720p, h264).mp4">
+                </video>
+                <figcaption><mark style="background-color: orange;">HTML in 100 seconds</mark></figcaption>
+            </figure>
+        </div>
+
+        <div id="LLs" style="border:1px solid gray; margin:20px; padding:20px;">
+    <h2>LISTS AND HYPERLINKS</h2>
+
+    <p>
+        HTML lists help organize information, while hyperlinks connect one page or section to another.
+        Together, they make webpages easier to navigate and understand.
+    </p>
+
+    <h3>Unordered List of Browser Features</h3>
+    <ul>
+        <li>External link:<a href="wikipedia.org">Visit Wikipedia</a></li>
+        <li>Internal link:<a href="#top">Back to top</a></li>
+        <li>Another internal link:<a href="#feedback">Contact HTML</a></li>
+    </ul>
+
+    <h3>Ordered List of Browser Actions</h3>
+    <ol>
+        <li>Open HTML file</li>
+        <li>Read the tags</li>
+        <li>Display webpage content</li>
+    </ol>
+    
+</div>
+
+        <div  id="feedback" style="border:1px solid gray; margin:20px; padding:20px;">
+            <fieldset>
+                <legend><h1>Feedback</h1></legend>
+                Name:<br><input type="text" placeholder="Enter yout full name..." required><br><br>
+                Email:<br><input type="email" placeholder="Enter your email..." required><br><br>
+                Phone Number:<br>+251<input type="tel" placeholder="Enter you Phone number"><br><br>
+                What color do you like most:<br><input type="color"><br><br>
+                On a scale of 1-5 rate your experince:<input type="range" min="0" max="5" step="1" value="3"><br><br>
+                Whats on you mind:<br><textarea placeholder="Your feedback is much appreciated..." style="width: 500px;height: 125px;"></textarea>
+            </fieldset>
+
+        </div>
+        
+        <div style="background-color:#c0c0c0; text-align:center; padding:15px; margin-top:20px; border-top:2px solid black;">
+        Browser Session Completed Successfully.<br>
+        Thank You For Exploring How HTML Comes To Life.
+        </div>
+    </div>
+
+</body>
+</html>
