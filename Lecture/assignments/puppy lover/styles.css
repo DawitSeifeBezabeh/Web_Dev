@@ -14,20 +14,25 @@ body {
   width: 100%;
   height: 360px;
   object-fit: cover;
+  padding-bottom: 50px;
 }
 
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
+  display: flex;
+  justify-content: center;
+  /* grid-template-columns: repeat(3, 1fr); */
+  gap: 20px;
   max-width: 1200px;
   margin: 40px auto;
   padding: 0 20px;
 }
 
-.gallery-pic img {
+.gallery-pic1 img,
+.gallery-pic2 img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
+  display: block;
 }
 
 .missing {
@@ -36,7 +41,9 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size:30px;
+  font-size: 30px;
+  min-height: 200px;
+  width: 300px;
 }
 
 .more {
@@ -47,19 +54,25 @@ body {
 }
 
 .more h2 {
-  margin-bottom: 20px;
+  padding: 30px 0;
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
 }
 
 .more-gallery {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 45px;
+  display: flex;
+  justify-content: center;
+  /* grid-template-columns: repeat(2, 1fr); */
+  gap: 70px;
 }
 
-.more-pic img {
+.more-pic1 img,
+.more-pic2 img {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  /* aspect-ratio: 3 / 4; */
   object-fit: cover;
+  display: block;
 }
 
 .footer {
@@ -69,4 +82,33 @@ body {
   color: white;
   font-size: 30px;
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .gallery-pic1,
+  .gallery-pic2,
+  .missing {
+      width: 90%;
+  }
+ 
+  .missing {
+    font-size: 24px;
+    min-height: 150px;
+  }
+ 
+  .more-gallery {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+ 
+  .more-pic1,
+  .more-pic2 {
+    width: 90%;
+  }
 }
