@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header styling */
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.internal {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.tower-logo img {
+    height: 65px;
+    display: block;
+}
+
+.header-links ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.header-links .tag a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 16px 32px;
+    font-size: 18px;
+    border-radius: 100px;
+    display: inline-block;
+    transition: background 0.2s, color 0.2s;
+}
+
+.header-links .tag:hover a {
+    color: white;
+    background: gray;
+}
+
+/* Footer styling */
