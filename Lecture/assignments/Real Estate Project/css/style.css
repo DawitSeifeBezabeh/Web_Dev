@@ -2,15 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-/* Header styling */
 
 .header {
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: #fff;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    z-index: 100;
+    background-color: #000;
 }
 
 .internal {
@@ -26,30 +26,469 @@
 }
 
 .tower-logo img {
-    height: 65px;
-    display: block;
+    height: 50px;
+    display: flex;
+    filter: brightness(0) invert(1);
 }
 
 .header-links ul {
     display: flex;
     list-style: none;
-    gap: 24px;
+    gap: 4px;
 }
 
 .header-links .tag a {
-    color: black;
+    color: #ccc;
     text-decoration: none;
-    font-weight: 500;
-    padding: 16px 32px;
-    font-size: 18px;
-    border-radius: 100px;
+    font-weight: 400;
+    padding: 8px 16px;
+    font-size: 15px;
+    border-radius: 6px;
     display: inline-block;
     transition: background 0.2s, color 0.2s;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; */
 }
 
 .header-links .tag:hover a {
-    color: white;
-    background: gray;
+    color: #000;
+    background: White;
 }
 
-/* Footer styling */
+body {
+    background-color: #f5f4f0;
+}
+
+.title-wrapper {
+    background-image: url(/assets/images/premium_photo-1671734046273-66df3cc12e07.avif);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.title-wrapper::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.42);
+}
+
+.title-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.title-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
+}
+
+.title-content p {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.8);
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; */
+}
+
+.title-wrapper .links-wrapper{
+    list-style: none;
+    text-decoration: none;
+    padding-top: 25px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+
+.btn {
+     text-decoration: none;
+     padding: 12px 30px;
+     border-radius: 50px;
+     font-size: 16px;
+
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.btn-filled {
+    background-color: black;
+    color: white;
+}
+
+
+
+.anniversary-section {
+    position: relative;
+    background: #f0efe7;
+    max-width: 1000px;
+    margin: 0px auto;
+    min-height: 250px;
+    padding: 150px 200px 50px 200px;
+    /* box-sizing: border-box; */
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* Circle */
+.years-badge {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+
+    width: 230px;
+    height: 230px;
+
+    border: 5px solid #000;
+    border-radius: 50%;
+
+    background: #f0efe7;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 25 */
+.years-badge .number {
+    font-size: 90px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1;
+}
+
+/* Years */
+.years-badge .text {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1;
+}
+
+/* Paragraph */
+.content p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #111;
+    margin: 0;
+    font-style: italic;
+}
+
+
+.about-section {
+    background-color: #f5f4f0;
+    padding-bottom: 40px;
+}
+
+.section-heading {
+    color: #1a1a1a;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 48px 0 32px;
+}
+
+.multiple {
+    display: flex;
+    gap: 2%;
+    width: 90%;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+.left-side {
+    width: 28%;
+    min-height: 420px;
+    background-image: url("/assets/images/property_twentytwo.9afdcffc.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.middle {
+    flex: 1;
+    color: #333;
+    font-size: 17px;
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.right-side {
+    width: 28%;
+    min-height: 420px;
+    background-image: url("/assets/images/property_eleven.533a33a1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+/* ── Showcase section ── */
+.multiple2 {
+    width: 90%;
+    margin: 0 auto 40px;
+    display: flex;
+    gap: 2%;
+}
+
+.multi1 {
+    width: 70%;
+}
+
+.multi1 img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: flex;
+}
+
+.multi2 {
+    flex: 1;
+    color:darkblue;
+    min-height: 360px;
+    background-color: #ddd;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.why-us {
+    background: #f5f4f0;
+    padding: 80px 20px;
+}
+
+.why-us .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.why-us h2 {
+    text-align: center;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 400;
+    margin-bottom: 70px;
+    color: #222;
+    font-family: "Times New Roman", serif;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px 50px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature .icon {
+    font-size: 3rem;
+    color: #7a8794;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.feature h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #222;
+    font-family: "Times New Roman", serif;
+}
+
+.feature p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+/* Tablet */
+
+
+/* ── Footer ── */
+footer {
+    background: #111;
+    color: #fff;
+    padding: 40px 8% 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
+}
+
+/* Override the global h3 inside the footer */
+.footer-brand-name {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+
+.footer-info p {
+    max-width: 300px;
+    color: #aaa;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.social-links img,ul{
+    list-style: none;
+    height: 50px;
+    display: flex;
+    gap: 20px
+}
+
+.footer-links h4 {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff6f00;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #777;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+
+@media (max-width: 900px) {
+
+    .header .header-links ul li{
+        /* display: none; */
+        align-items: center;
+        text-align: left;
+    }
+    .multiple {
+        flex-direction: column;
+    }
+    .left-side,
+    .right-side {
+        width: 100%;
+        min-height: 260px;
+    }
+    .middle {
+        padding: 20px 0;
+    }
+    .multiple2 {
+        flex-direction: column;
+    }
+    .multi1 {
+        width: 100%;
+    }
+    .multi1 img {
+        height: 240px;
+    }
+    .multi2 {
+        min-height: 180px;
+    }
+    .title-content h1 {
+        font-size: 30px;
+    }
+    /* .header-links ul {
+        display: none;
+    } */
+    .anniversary-section {
+        padding: 180px 25px 40px;
+        text-align: center;
+    }
+
+    .years-badge {
+        width: 180px;
+        height: 180px;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, -50%);
+    }
+
+    .years-badge .number {
+        font-size: 60px;
+    }
+
+    .years-badge .text {
+        font-size: 40px;
+    }
+
+    .content p {
+        font-size: 1.1rem;
+    }
+
+    .why-us {
+        padding: 60px 20px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .feature h3 {
+        font-size: 1.8rem;
+    }
+
+    .feature p {
+        max-width: 100%;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 590px) {
+    .header .header-links ul li{
+        display: none;
+    }
+}

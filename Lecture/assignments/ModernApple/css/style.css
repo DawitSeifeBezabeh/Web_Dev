@@ -126,10 +126,21 @@ body{
      font-size: 16px;
 
 }
+
 .btn-filled {
     background-color: #0071e3;
     color: white;
 }
+.links .btn-filled2{
+    border: 1px solid #0071e3;
+    background-color: white;
+    color: #0071e3;
+}
+.links .btn-filled2:hover{
+    color: white;
+    background-color: #0071e3;
+}
+
 .product-title{
     font-weight: 600;
     font-size: 56px;
@@ -247,7 +258,10 @@ body{
     font-size: 40px;
     font-weight: bold;
 }
-
+.fifth-highlight .left-side .links .btn-filled2{
+    background-color: black;
+    color: #0071e3;
+}
 
 
 
@@ -313,10 +327,6 @@ body{
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
     
-}
-
-.carousel::-webkit-scrollbar {
-    display: none;
 }
 
 .carousel-track {
@@ -451,7 +461,7 @@ body{
 }
 .copyright-wrapper {
   display: flex;
-  /* -webkit-box-pack: justify; */
+  -webkit-box-pack: justify;
   justify-content: space-between;
   padding: 10px 0 20px;
 }
@@ -481,6 +491,13 @@ body{
   display: inline-block;
   vertical-align: top;
 }
+.upper-text ul{
+    list-style-type:decimal;
+    font-size: 11px;
+}
+.upper-text p{
+    margin: 0 0 16px 0;
+}
 @media (max-width: 976px) {
   .fourth-highlight,
   .fifth-highlight,
@@ -490,8 +507,12 @@ body{
   .main-highlight{
     padding-top: 100px;
   }
-
-  /* Specificity matched to override split-screen widths cleanly */
+.header .header-links .dis{
+    display: none;
+}
+.header .header-links .apple-logo,.search,.cart{
+    align-items: center;
+}
   .fourth-highlight .left-side,
   .fourth-highlight .right-side,
   .fifth-highlight .left-side,
@@ -507,7 +528,6 @@ body{
     box-sizing: border-box;
   }
 
-  /* Scales down large hero text sizes */
   .product-title {
     font-size: 36px;
   }
@@ -517,7 +537,6 @@ body{
     font-size: 20px;
   }
 
-  /* Keeps navigation links scaling neatly */
   .header ul {
     flex-wrap: wrap;
     justify-content: space-around;
@@ -527,7 +546,6 @@ body{
     padding: 10px 6px;
   }
 
-  /* Stacks responsive button setups cleanly */
   .links ul {
     display: flex;
     flex-direction: column;
@@ -547,7 +565,6 @@ body{
     box-sizing: border-box;
   }
 
-  /* Footer responsiveness */
   .footer-links {
     flex-direction: column;
   }
@@ -556,10 +573,4 @@ body{
     flex-direction: column;
     gap: 12px;
   }
-  /* .dis{
-    display: none;
-  } */
-   .dis li{
-    display: none;
-   }
 }
