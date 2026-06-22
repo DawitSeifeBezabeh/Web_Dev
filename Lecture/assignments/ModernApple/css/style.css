@@ -18,11 +18,11 @@ body{
     width: 100%;
     position: fixed;
     background: white;
-    /* opacity: 0.9; */
+    opacity: .9;
     color: black;
     font-size: 0.75em;
     font-width: 200;
-    z-index: 9999;
+    z-index: 999;
 }
 .header ul{
     display: flex;
@@ -133,7 +133,7 @@ body{
 }
 .links .btn-filled2{
     border: 1px solid #0071e3;
-    background-color: white;
+    background-color: transparent;
     color: #0071e3;
 }
 .links .btn-filled2:hover{
@@ -379,9 +379,6 @@ body{
     scrollbar-width: none;
 }
 
-.mini-carousel::-webkit-scrollbar {
-    display: none;
-}
 
 .mini-track {
     display: flex;
