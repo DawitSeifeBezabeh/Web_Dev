@@ -100,14 +100,6 @@ body{
     text-decoration: none;
 }
 
-/* .links ul li a:after{
-    font-family: "FontAwesome";
-    font-weight: 900;
-    content: "\f105";
-    padding-left: 10px;
-} */
-
-
 .second-highlight{
     background-image: url("/images/home/fathers-day-banner.jpg");
     height: 580px;

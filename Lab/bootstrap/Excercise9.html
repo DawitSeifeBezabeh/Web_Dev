@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    Excercise 9:
+<section class="py-5 bg-light"> <!-- ①"py-5" adds padding of 48px to the bottom and top, "bg-light" make the background of the outer space white  -->
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold"> <!-- ② "text-center" centers the header, "mb-5" adds a margin of 48px to the bottom of the header, and "fw-bold" makes the font weight of the header bold.-->
+        Meet Our Team
+        </h2>
+        <div class="row g-4 justify-content-center"> <!-- ③"justify-content-center" centers the card to the screen, "g-4" adds a gap of 24px, "row" creates a horizontal flex container that holds columns.-->
+            <div class="col-12 col-md-6 col-lg-3"> <!-- ④Its basically saying that as the screen sizes changes, dynamically change how much of the 12 grids the card should take up; col-12 = full width, col-md-6 = half width on tablets, col-lg-3 = quarter width on laptops -->
+                <div class="card border-0 text-center h-100 shadow-sm">
+                    <div class="card-body p-4">
+                        <img src="https://i.pravatar.cc/90?img=12"
+                        class="rounded-circle mb-3" 
+                        alt="Meron Tadesse"
+                        width="90" height="90"> <!-- ⑤"rounded-circle" is border-radius of 50% to the photo container. "mb-3" is margin bottom of 16px -->
+                        <h5 class="card-title">Meron Tadesse</h5>
+                        <p class="text-muted small">UI/UX Lead</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

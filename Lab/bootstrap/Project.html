@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EthioConnect</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        .html{
+            scroll-behavior: smooth;
+            scroll-padding-top: 70px;
+        }
+        .hero{
+            background: linear-gradient(135deg,#0b3d2e,#102542);
+            padding:100px 0;
+        }
+        .hero h1{
+            text-shadow:2px 2px 8px rgba(0,0,0,.4);
+        }
+        .hero .btn{
+            transition:.3s;
+        }
+        .hero .btn:hover{
+            transform:scale(1.05);
+        }
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+        .navbar{
+            box-shadow: 0 2px 8px rgba(0,0,0,.15);
+        }
+        .navbar-nav .nav-link{
+            transition: color .3s;
+        }
+        .navbar-nav .nav-link:hover{
+            color:#198754;
+        }
+        .feature-card{
+            transition: .3s;
+        }
+        .feature-card:hover{
+            transform: translateY(-8px);
+            box-shadow: 0 .75rem 1.5rem rgba(0,0,0,.15);
+        }
+        .team-card img{
+            transition: .3s;
+        }
+        .team-card:hover img{
+            transform: scale(1.08);
+        }
+        .btn-success:hover{
+            background:#157347;
+            border-color:#157347;
+        }
+        section{
+            scroll-margin-top:70px;
+        }
+        .card{
+            border-radius:12px;
+        }
+        footer a{
+            transition:.3s;
+        }
+        footer a:hover{
+            color:#198754 !important;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#home">
+            EthioConnect
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <a href="#contact" class="btn btn-success ms-auto">
+                Join the Network
+            </a>
+        </div>
+    </div>
+</nav>
+<section id="home" class="hero">
+    <div class="container text-center text-white">
+        <span class="badge bg-success text-uppercase mb-3">
+            Ethiopia's #1 Tech Network
+        </span>
+        <h1 class="display-3 fw-bold mb-4">
+            Connecting Minds Across Ethiopia
+        </h1>
+        <p class="lead text-light mb-5">
+            Join thousands of Ethiopian developers, designers,
+            entrepreneurs and students building the future of technology
+            together.
+        </p>
+        <div class="d-grid d-md-flex gap-3 justify-content-md-center mb-5">
+            <a href="#pricing" class="btn btn-success btn-lg">
+                Join Today
+            </a>
+            <a href="#features" class="btn btn-outline-light btn-lg">
+                Learn More
+            </a>
+        </div>
+        <div class="row text-center">
+            <div class="col-12 col-md-4 mb-4">
+                <h3 class="fw-bold">2,400+</h3>
+                <p class="text-light">Members</p>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <h3 class="fw-bold">120+</h3>
+                <p class="text-light">Companies</p>
+            </div>
+            <div class="col-12 col-md-4">
+                <h3 class="fw-bold">50+</h3>
+                <p class="text-light">Events</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="features" class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">
+                Why EthioConnect?
+            </h2>
+            <p class="text-muted">
+                Everything you need to connect, learn, and grow in Ethiopia's technology community.
+            </p>
+        </div>
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card feature-card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <div class="display-4 mb-3">🤝</div>
+                        <h5 class="card-title fw-bold">
+                            Networking
+                        </h5>
+                        <p class="card-text">
+                            Meet professionals from different industries, expand your network, and build meaningful relationships that support your career.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card feature-card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <div class="display-4 mb-3">💼</div>
+                        <h5 class="card-title fw-bold">
+                            Jobs
+                        </h5>
+                        <p class="card-text">
+                            Discover internship opportunities, graduate programs, and full-time jobs from companies across Ethiopia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card feature-card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <div class="display-4 mb-3">🎤</div>
+                        <h5 class="card-title fw-bold">
+                            Events
+                        </h5>
+                        <p class="card-text">
+                            Participate in workshops, hackathons, conferences, and networking events organized throughout the year.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card feature-card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <div class="display-4 mb-3">📚</div>
+                        <h5 class="card-title fw-bold">
+                            Learning
+                        </h5>
+                        <p class="card-text">
+                            Improve your technical skills through tutorials, community discussions, and shared educational resources.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card feature-card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <div class="display-4 mb-3">🧑‍🏫</div>
+                        <h5 class="card-title fw-bold">
+                            Mentorship
+                        </h5>
+                        <p class="card-text">
+                            Receive guidance from experienced professionals who can help you achieve your academic and career goals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card feature-card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <div class="display-4 mb-3">💻</div>
+                        <h5 class="card-title fw-bold">
+                            Open Source
+                        </h5>
+                        <p class="card-text">
+                            Collaborate on community-driven projects, contribute to open-source software, and gain practical experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-6 col-md-3 border-end">
+                <h2 class="display-5 fw-bold">2,400+</h2>
+                <p class="text-secondary mb-0">Members</p>
+            </div>
+            <div class="col-6 col-md-3 border-end">
+                <h2 class="display-5 fw-bold">120+</h2>
+                <p class="text-secondary mb-0">Companies</p>
+            </div>
+            <div class="col-6 col-md-3 border-end mt-4 mt-md-0">
+                <h2 class="display-5 fw-bold">18</h2>
+                <p class="text-secondary mb-0">Cities Covered</p>
+            </div>
+            <div class="col-6 col-md-3 mt-4 mt-md-0">
+                <h2 class="display-5 fw-bold">50+</h2>
+                <p class="text-secondary mb-0">Events Hosted</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="team" class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">
+                Meet Our Team
+            </h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card border-0 text-center h-100 shadow-sm team-card">
+                    <div class="card-body">
+                        <img src="https://i.pravatar.cc/150?img=12" class="rounded-circle mb-3" width="120" height="120" alt="Meron Tadesse">
+                        <h5 class="card-title">
+                            Meron Tadesse
+                        </h5>
+                        <p class="text-muted">
+                            UI/UX Designer
+                        </p>
+                        <p class="card-text">
+                            Passionate about creating simple and user-friendly digital experiences.
+                        </p>
+                        <a href="#" class="btn btn-outline-dark btn-sm">GitHub</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm">LinkedIn</a>
+                        <a href="#" class="btn btn-outline-info btn-sm">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card border-0 text-center h-100 shadow-sm team-card">
+                    <div class="card-body">
+                        <img src="https://i.pravatar.cc/150?img=15" class="rounded-circle mb-3" width="120" height="120" alt="Samuel Bekele">
+                        <h5 class="card-title">
+                            Samuel Bekele
+                        </h5>
+                        <p class="text-muted">
+                            Full Stack Developer
+                        </p>
+                        <p class="card-text">
+                            Builds scalable web applications and enjoys mentoring new developers.
+                        </p>
+                        <a href="#" class="btn btn-outline-dark btn-sm">GitHub</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm">LinkedIn</a>
+                        <a href="#" class="btn btn-outline-info btn-sm">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card border-0 text-center h-100 shadow-sm team-card">
+                    <div class="card-body">
+                        <img src="https://i.pravatar.cc/150?img=25" class="rounded-circle mb-3" width="120" height="120" alt="Hana Alemu">
+                        <h5 class="card-title">
+                            Hana Alemu
+                        </h5>
+                        <p class="text-muted">
+                            Product Manager
+                        </p>
+                        <p class="card-text">
+                            Coordinates projects and ensures products solve real community needs.
+                        </p>
+                        <a href="#" class="btn btn-outline-dark btn-sm">GitHub</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm">LinkedIn</a>
+                        <a href="#" class="btn btn-outline-info btn-sm">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card border-0 text-center h-100 shadow-sm team-card">
+                    <div class="card-body">
+                        <img src="https://i.pravatar.cc/150?img=33" class="rounded-circle mb-3"  width="120" height="120" alt="Abel Tesfaye">
+                        <h5 class="card-title">
+                            Abel Tesfaye
+                        </h5>
+                        <p class="text-muted">
+                            Community Manager
+                        </p>
+                        <p class="card-text">
+                            Connects members and organizes networking events across Ethiopia.
+                        </p>
+                        <a href="#" class="btn btn-outline-dark btn-sm">GitHub</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm">LinkedIn</a>
+                        <a href="#" class="btn btn-outline-info btn-sm">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="faq" class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">
+                Frequently Asked Questions
+            </h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true">
+                                How do I join EthioConnect?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Simply register for a free account and become part of the community.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false">
+                                Is membership free?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes. Anyone can join the Free plan, with optional paid plans available.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#faq3"
+                                    aria-expanded="false">
+                                What cities are covered?
+                            </button>
+                        </h2>
+                        <div id="faq3"
+                             class="accordion-collapse collapse"
+                             data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Members come from Addis Ababa and many other cities across Ethiopia.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#faq4"
+                                    aria-expanded="false">
+                                How do I post a job?
+                            </button>
+                        </h2>
+                        <div id="faq4"
+                             class="accordion-collapse collapse"
+                             data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Employers can post opportunities through their company dashboard.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#faq5"
+                                    aria-expanded="false">
+                                Can students join?
+                            </button>
+                        </h2>
+                        <div id="faq5"
+                             class="accordion-collapse collapse"
+                             data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes. Students are encouraged to join and connect with professionals.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">
+                Get In Touch
+            </h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+                <form>
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">
+                            Full Name
+                        </label>
+                        <input type="text" class="form-control" id="fullName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">
+                            Email
+                        </label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="city" class="form-label">
+                            City
+                        </label>
+                        <select class="form-select" id="city">
+                            <option>Addis Ababa</option>
+                            <option>Adama</option>
+                            <option>Bahir Dar</option>
+                            <option>Hawassa</option>
+                            <option>Mekelle</option>
+                            <option>Dire Dawa</option>
+                            <option>Jimma</option>
+                            <option>Gondar</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">
+                            Subject
+                        </label>
+                        <select class="form-select" id="subject">
+                            <option>Join the Network</option>
+                            <option>Report an Issue</option>
+                            <option>Partnership</option>
+                            <option>General</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">
+                            Message
+                        </label>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
+                    </div>
+                    <div class="d-grid">
+                        <button class="btn btn-success btn-lg">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+                <p class="text-center text-muted small mt-3">
+                    We respond to all messages within 24 hours.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4 mb-4">
+                <h4>
+                    EthioConnect
+                </h4>
+                <p>
+                    Connecting Ethiopia's technology professionals.
+                </p>
+            </div>
+            <div class="col-12 col-lg-4 mb-4">
+                <h5>
+                    Quick Links
+                </h5>
+                <ul class="list-unstyled">
+                    <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="#features" class="text-white text-decoration-none">Features</a></li>
+                    <li><a href="#team" class="text-white text-decoration-none">Team</a></li>
+                    <li><a href="#pricing" class="text-white text-decoration-none">Pricing</a></li>
+                    <li><a href="#faq" class="text-white text-decoration-none">FAQ</a></li>
+                    <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-4">
+                <h5>
+                    Follow Us
+                </h5>
+                <p>
+                    <a href="#" class="text-white text-decoration-none me-3">GitHub</a>
+                    <a href="#" class="text-white text-decoration-none me-3">LinkedIn</a>
+                    <a href="#" class="text-white text-decoration-none">Twitter</a>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <p class="text-center mb-0">
+            © 2026 EthioConnect. Built with Bootstrap 5.
+        </p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
