@@ -1,0 +1,565 @@
+/*  Name: Dawit Seife
+    Section DRB2502 A
+    ID: Ao5899  */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header styling */
+img{
+    max-height: 100%;
+}
+body{
+    font-size: 15px;
+    font-family: 'Montserrat',sans-serif;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    background: white;
+    opacity: .9;
+    color: black;
+    font-size: 0.75em;
+    font-width: 200;
+    z-index: 999;
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+}
+.internal{
+    width: 980px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.header .header-links ul li a{
+    color: black;
+    text-decoration: none;
+}
+.header ul{
+    list-style: none;
+}
+.header .header-links ul li{
+    opacity: 0.8;
+    padding: 14px 0 8px;
+    height: 25px;
+    display: inline-block;
+}
+.header .header-links ul li:hover{
+    opacity: 1;
+}
+.apple-logo .search .cart{
+    width: 18px;
+    display: block;
+}
+.header .header-links ul li.search{
+    padding: 14px 0 8px;
+}
+.header .header-links ul li.cart{
+    padding: 12px 0 10px;
+}
+.header .header-links ul li.apple-logo{
+    padding: 14px 0 10px;
+}
+
+/* Main-body Styling */
+.main-highlight{
+    background-image: url("/Draft1/ModernApple/images/home/double-iphone-banner.jpg");
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 65px 20px;
+    color: black;
+    margin-bottom: 13px;
+}
+.links ul{
+    list-style:none;
+}
+.model{
+    font-size: .85em;
+}
+.product-title{
+    font-weight: 700;
+    font-size: 55px;
+}
+.brief-description{
+    font-size:28px;
+}
+.links{
+    padding: 15px;
+}
+.links ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.links ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.second-highlight{
+    background-image: url("/Draft1/ModernApple/images/home/fathers-day-banner.jpg");
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 65px 20px;
+    color: black;
+    margin-bottom: 13px;
+}
+.btn {
+     text-decoration: none;
+     padding: 12px 30px;
+     border-radius: 50px;
+     font-size: 16px;
+
+}
+
+.btn-filled {
+    background-color: #0071e3;
+    color: white;
+}
+.links .btn-filled2{
+    border: 1px solid #0071e3;
+    background-color: transparent;
+    color: #0071e3;
+}
+.links .btn-filled2:hover{
+    color: white;
+    background-color: #0071e3;
+}
+
+.product-title{
+    font-weight: 600;
+    font-size: 56px;
+}
+.brief-description{
+    font-size: 26px;
+    padding: 10px 0;
+}
+.pricing{
+    color: #86868b;
+    font-size: 0.85em;
+}
+
+
+
+.third-highlight{
+    background-image: url("/Draft1/ModernApple/images/home/mac-and-ipad-banner.jpg");
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+
+
+.fourth-highlight{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.left-side{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 0.5% 0% 1%;
+    padding-top: 54px;
+}
+
+
+.left-side .brief-description{
+    font-size: 25px;
+}
+
+.fourth-highlight .left-side{
+    background-image: url("/Draft1/ModernApple/images/home/macbook-promo-banner.jpg");
+    background-color: #fafafa;
+    background-position: bottom;
+}
+
+.right-side{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 1% 0% 0.5%;
+    padding-top: 54px;
+}
+
+.fourth-highlight .right-side{
+    background-image: url("/Draft1/ModernApple/images/home/ipads-banner.jpg");
+}
+
+.brief-description{
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+
+
+.fifth-highlight{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifth-highlight .left-side{
+    background-image: url("/Draft1/ModernApple/images/home/promo_macbook_pro__c9td9w1mc8ia_large.jpg");
+}
+
+.fifth-highlight .left-side{
+    color: white;
+    
+}
+.fifth-highlight .right-side{
+    background-image: url("/Draft1/ModernApple/images/home/promo_apple_watch_series_11__gnlwqxe1jlu2_large.jpg");
+    color: #000;
+    background-size: initial;
+    background-color: #fff;
+    background-position: bottom;
+}
+.fifth-highlight .right-side{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 1% 0% 0.5%;
+    padding-top: 54px;
+}
+.fifth-highlight .right-side .links ul li a:hover{
+    color: white;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+.fifth-highlight .left-side .links .btn-filled2{
+    background-color: black;
+    color: #0071e3;
+}
+
+
+
+
+.sixth-highlight{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.sixth-highlight .left-side{
+    background-image: url("/Draft1/ModernApple/images/home/airpods-and-card-banner.jpg");
+    background-size: initial;
+    background-color: #fafafa;
+    background-position: bottom;
+}
+
+.sixth-highlight .right-side{
+    background-image: url("/Draft1/ModernApple/images/home/iphone-trade-banner.jpg");
+    background-size: initial;
+    background-position: bottom;
+}
+.sixth-highlight .right-side{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 1% 0% 0.5%;
+    padding-top: 54px;
+}
+.sixth-highlight .left-side{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 0.5% 0% 1%;
+    padding-top: 54px;
+}
+/* Exp */
+.entertainment {
+    background: #f5f5f7;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.entertainment h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1d1d1f;
+    margin-bottom: 20px;
+}
+
+/* Main Carousel */
+.entertainment h2{
+    font-size: 40px;
+}
+.carousel {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    
+}
+
+.carousel-track {
+    display: flex;
+    width: max-content;
+    gap: 15px;
+}
+
+.carousel-item {
+    scroll-snap-align: center;
+    position: relative;
+    width: 100vw;
+    max-width: 1200px;
+    flex-shrink: 0;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+.carousel-info {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.carousel-info button {
+    background: rgba(255,255,255,.9);
+    border: none;
+    border-radius: 980px;
+    padding: 10px 22px;
+    cursor: pointer;
+}
+
+.carousel-info p {
+    margin: 0;
+}
+
+/* Small Card Carousel */
+.mini-carousel {
+    margin-top: 18px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+
+.mini-track {
+    display: flex;
+    gap: 12px;
+    padding: 0 20px 20px;
+    width: max-content;
+}
+
+.mini-card {
+    width: 220px;
+    height: 125px;
+    border-radius: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.mini-card:hover {
+    transform: scale(1.03);
+}
+
+.mini-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* exp */
+/* Footer Styling */
+.footer{
+    background:#f5f5f7;
+    color: #1d1d1f;
+    font-size: 0.65em;
+}
+.upper-text{
+    border-bottom: 1px solid #d3d3d7;
+    color: #86868b;
+    padding: 17px 0 20px;
+}
+.upper-text a{
+    text-decoration: none;
+    color: #515154;
+}
+.upper-text a:hover{
+    text-decoration: underline;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.footer ul{
+    list-style: none;
+    padding-bottom: 20px;
+}
+.footer ul li{  
+    padding: 5px 0;
+    font-size: 0.9em;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #515154;
+}
+.footer-links a:hover{
+    text-decoration: underline;
+}
+.footer-links h3 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+.my-apple {
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.copyright-wrapper {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 10px 0 20px;
+}
+.footer-links-terms ul li {
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid #ccc;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0px;
+}
+.footer-links-terms ul li a {
+  text-decoration: none;
+  color: #515154;
+}
+.footer-links-terms ul li a:hover {
+  text-decoration: underline;
+}
+.footer-country {
+  display: inline-block;
+}
+.flag {
+  display: inline-block;
+  vertical-align: middle;
+}
+.country-name {
+  display: inline-block;
+  vertical-align: top;
+}
+.upper-text ul{
+    list-style-type:decimal;
+    font-size: 11px;
+}
+.upper-text p{
+    margin: 0 0 16px 0;
+}
+@media (max-width: 976px) {
+  .fourth-highlight,
+  .fifth-highlight,
+  .sixth-highlight {
+    flex-direction: column;
+  }
+  .main-highlight{
+    padding-top: 100px;
+  }
+.header .header-links .dis{
+    display: none;
+}
+.header .header-links .apple-logo,.search,.cart{
+    align-items: center;
+}
+  .fourth-highlight .left-side,
+  .fourth-highlight .right-side,
+  .fifth-highlight .left-side,
+  .fifth-highlight .right-side,
+  .sixth-highlight .left-side,
+  .sixth-highlight .right-side {
+    width: 96%;
+    margin: 10px 2% 0 2%;
+    box-sizing: border-box;
+  }
+  .internal {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .product-title {
+    font-size: 36px;
+  }
+
+  .brief-description,
+  .fourth-highlight .left-side .brief-description {
+    font-size: 20px;
+  }
+
+  .header ul {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .header .header-links ul li {
+    padding: 10px 6px;
+  }
+
+  .links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .links ul li {
+    padding-right: 0;
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .btn {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  .copyright-wrapper {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
