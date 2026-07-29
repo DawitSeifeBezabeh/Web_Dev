@@ -60,7 +60,7 @@ body {
 }
 
 .title-wrapper {
-    background-image: url(/Draft1/Real\ Estate\ Project/assets/images/premium_photo-1671734046273-66df3cc12e07.avif);
+    background-image: url("../assets/images/premium_photo-1671734046273-66df3cc12e07.avif");
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -212,7 +212,7 @@ body {
 .left-side {
     width: 28%;
     min-height: 420px;
-    background-image: url("/Draft1/Real\ Estate\ Project/assets/images/property_twentytwo.9afdcffc.webp");
+    background-image: url("../assets/images/property_twentytwo.9afdcffc.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -236,7 +236,7 @@ body {
 .right-side {
     width: 28%;
     min-height: 420px;
-    background-image: url("/Draft1/Real\ Estate\ Project/assets/images/property_eleven.533a33a1.webp");
+    background-image: url("../assets/images/property_eleven.533a33a1.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

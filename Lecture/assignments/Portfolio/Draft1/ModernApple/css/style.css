@@ -65,7 +65,7 @@ body{
 
 /* Main-body Styling */
 .main-highlight{
-    background-image: url("/Draft1/ModernApple/images/home/double-iphone-banner.jpg");
+    background-image: url("../images/home/double-iphone-banner.jpg");
     height: 580px;
     background-position: center;
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@ body{
 }
 
 .second-highlight{
-    background-image: url("/Draft1/ModernApple/images/home/fathers-day-banner.jpg");
+    background-image: url("../images/home/fathers-day-banner.jpg");
     height: 580px;
     background-position: center;
     background-repeat: no-repeat;
@@ -149,7 +149,7 @@ body{
 
 
 .third-highlight{
-    background-image: url("/Draft1/ModernApple/images/home/mac-and-ipad-banner.jpg");
+    background-image: url("../images/home/mac-and-ipad-banner.jpg");
     height: 580px;
     background-position: center;
     background-repeat: no-repeat;
@@ -183,7 +183,7 @@ body{
 }
 
 .fourth-highlight .left-side{
-    background-image: url("/Draft1/ModernApple/images/home/macbook-promo-banner.jpg");
+    background-image: url("../images/home/macbook-promo-banner.jpg");
     background-color: #fafafa;
     background-position: bottom;
 }
@@ -200,7 +200,7 @@ body{
 }
 
 .fourth-highlight .right-side{
-    background-image: url("/Draft1/ModernApple/images/home/ipads-banner.jpg");
+    background-image: url("../images/home/ipads-banner.jpg");
 }
 
 .brief-description{
@@ -218,7 +218,7 @@ body{
 }
 
 .fifth-highlight .left-side{
-    background-image: url("/Draft1/ModernApple/images/home/promo_macbook_pro__c9td9w1mc8ia_large.jpg");
+    background-image: url("../images/home/promo_macbook_pro__c9td9w1mc8ia_large.jpg");
 }
 
 .fifth-highlight .left-side{
@@ -226,7 +226,7 @@ body{
     
 }
 .fifth-highlight .right-side{
-    background-image: url("/Draft1/ModernApple/images/home/promo_apple_watch_series_11__gnlwqxe1jlu2_large.jpg");
+    background-image: url("../images/home/promo_apple_watch_series_11__gnlwqxe1jlu2_large.jpg");
     color: #000;
     background-size: initial;
     background-color: #fff;
@@ -265,14 +265,14 @@ body{
 }
 
 .sixth-highlight .left-side{
-    background-image: url("/Draft1/ModernApple/images/home/airpods-and-card-banner.jpg");
+    background-image: url("../images/home/airpods-and-card-banner.jpg");
     background-size: initial;
     background-color: #fafafa;
     background-position: bottom;
 }
 
 .sixth-highlight .right-side{
-    background-image: url("/Draft1/ModernApple/images/home/iphone-trade-banner.jpg");
+    background-image: url("../images/home/iphone-trade-banner.jpg");
     background-size: initial;
     background-position: bottom;
 }
